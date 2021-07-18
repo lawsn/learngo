@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func f1_8() {
 	a := 2
 	b := &a
 	a = 10

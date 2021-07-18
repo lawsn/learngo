@@ -16,7 +16,7 @@ func lenAndUpper(name string) (length int, uppercase string) {
 	return
 }
 
-func main() {
+func f1_4() {
 	fmt.Println("Hello world")
 	something.SayHello()
 	something.SayBye()

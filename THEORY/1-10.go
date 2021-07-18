@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func f1_10() {
 	nico := map[string]string{"name": "nico", "age": "12"}
 	fmt.Println(nico)
 

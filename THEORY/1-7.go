@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func canIDrink(age int) bool {
+func canIDrinks(age int) bool {
 
 	switch koreanAge := age + 2; koreanAge {
 	case 10:
@@ -15,6 +15,6 @@ func canIDrink(age int) bool {
 	return false
 }
 
-func main() {
-	fmt.Println(canIDrink(16))
+func f1_7() {
+	fmt.Println(canIDrinks(16))
 }

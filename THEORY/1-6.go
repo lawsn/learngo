@@ -12,6 +12,6 @@ func canIDrink(age int) bool {
 	return true
 }
 
-func main() {
+func f1_6() {
 	fmt.Println(canIDrink(16))
 }
